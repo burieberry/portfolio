@@ -1,10 +1,13 @@
 import React from 'react';
 
+import './intro.css';
+
+// import headshot from './bn.jpg';
+
 const Intro = () => {
   return (
     <div>
-      <h1>Burcu Noyan</h1>
-      <h3>Full Stack Software Engineer</h3>
+      <h1 className='headline'>Burcu Noyan</h1>
     </div>
   )
 }
