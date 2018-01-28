@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #000;
+  color: #e6e6f8;
+  height: 54px;
+  padding: 20px;
+  text-align: right;
+}
+
+.nav-item {
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+  margin-right: 3em;
+  text-transform: uppercase;
+}
