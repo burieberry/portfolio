@@ -1,12 +1,13 @@
 import React from 'react';
 
+import './introblurb.css';
+
 const IntroBlurb = () => {
   return (
     <div>
-      <h2>Hi, my name is Burcu Noyan. I am a full stack software engineer with a passion for front-end development and design.</h2>
-      <h2>pronounced: 'bu or ju'</h2>
+      <h2 className="description">Hi, I'm Burcu. Full stack software engineer living in New York City. I'm passionate about front-end web development, digital storytelling, and all things design. See some of my work and projects below.</h2>
     </div>
-  )
+  );
 }
 
 export default IntroBlurb;
