@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
+import Header from './Header';
 import Intro from './Intro';
-import IntroBlurb from './IntroBlurb';
+import Projects from './Projects';
 
 import './grid.css';
 
@@ -9,16 +10,18 @@ const Grid = () => {
 
   return (
     <div className="container">
-      <div className="one">
+      <div className="intro">
+        <Header headline={ 'Burcu Noyan' } />
+      </div>
+      <div className="blurb">
         <Intro />
       </div>
-      <div className="two">
-        <IntroBlurb />
+      <div className="projects">
+        <Projects title={ 'Projects' } />
       </div>
-      <div className="three">Three</div>
-      <div className="four">Four</div>
-      <div className="five">Five</div>
-      <div className="six">Six</div>
+      <div className="production">
+        <Projects title={ 'Production' } />
+      </div>
     </div>
   );
 }
