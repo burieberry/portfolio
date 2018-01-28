@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
+
+.headline {
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 54px;
+  margin: 1em 0;
+}
+
+/*.headshot {
+  border-radius: 100%;
+  width: 80px;
+}*/
