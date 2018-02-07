@@ -1,8 +1,10 @@
 import React from 'react';
+import { Icon } from 'rmwc/Icon';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faLinkedinIn, faMediumM, faStackOverflow } from '@fortawesome/fontawesome-free-brands';
 import { faCopyright, faEnvelope } from '@fortawesome/fontawesome-free-solid';
 
+import '@material/button/dist/mdc.button.min.css';
 import './footer.css';
 
 const Footer = ({ title }) => {
@@ -13,21 +15,19 @@ const Footer = ({ title }) => {
     faStackOverflow,
     faMediumM,
     faEnvelope
-  ]
+  ];
+
+  const copyrightTxt = 'Site built by Burcu Noyan, 2018.';
 
   return (
     <div className='footer'>
       {/*<h2 className='subhead'>{ title }</h2>*/}
       <div className='copyright'>
-        <p><small>©</small> Site built by Burcu Noyan, 2018.</p>
+        <p><small>©</small> { copyrightTxt }</p>
       </div>
       <div className='social-buttons'>
         {
-          icons.map(icon => {
-            return (
-              <FontAwesomeIcon className='icon' icon={ icon } />
-            );
-          })
+          icons.map(icon => <FontAwesomeIcon className='footer-icon' icon={ icon } />)
         }
       </div>
     </div>
