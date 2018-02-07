@@ -17,6 +17,7 @@ Button {
 }
 
 .project-title {
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 700;
   margin: 10px;
 }

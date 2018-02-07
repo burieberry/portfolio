@@ -16,7 +16,6 @@ body {
 .subhead {
   font-family: 'Karla', sans-serif;
   font-size: 24px;
-  font-weight: 700;
-  margin: 30px 10px;
+  font-weight: 400;
   text-transform: uppercase;
 }
