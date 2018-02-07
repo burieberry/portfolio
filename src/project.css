@@ -7,17 +7,16 @@ Button {
   font-weight: bold;
 }
 
-.project-title,
-.project-img,
-.project-desc,
-.project-buttons {
-  margin: 10px 0;
+.project-desc {
+  margin: 20px;
+}
+
+.project-img {
+  margin: 10px;
+  width: 520px;
 }
 
 .project-title {
   font-weight: 400;
-}
-
-.project-img {
-  width: 520px;
+  margin: 10px;
 }

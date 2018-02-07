@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -16,5 +17,6 @@ body {
   font-family: 'Karla', sans-serif;
   font-size: 24px;
   font-weight: 700;
+  margin: 30px 10px;
   text-transform: uppercase;
 }

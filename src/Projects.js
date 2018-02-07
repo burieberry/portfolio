@@ -5,10 +5,11 @@ import './projects.css';
 import Project from './Project';
 import projectImg from './images/ratingfinder.png';
 
-const projectTitle = 'RatingFinder';
-const projectDesc = 'Find and compare ratings and reviews from Yelp, Google Maps, Foursquare — all in one place.';
-
 const Projects = ({ title }) => {
+  // TODO: import these from JSON obj, incl the image
+  const projectTitle = 'RatingFinder';
+  const projectDesc = 'Find and compare ratings and reviews from Yelp, Google Maps, Foursquare — all in one place.';
+
   return (
     <div>
       <h2 className='subhead'>{ title }</h2>
