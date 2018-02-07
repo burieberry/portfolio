@@ -19,9 +19,9 @@ const Grid = () => {
       <div className="projects">
         <Projects title={ 'Projects' } />
       </div>
-      <div className="production">
+      {/*<div className="production">
         <Projects title={ 'Production' } />
-      </div>
+      </div>*/}
     </div>
   );
 }
