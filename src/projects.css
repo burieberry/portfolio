@@ -1,0 +1,17 @@
+li {
+  list-style-type: none;
+}
+
+.project_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.project {
+  border: 2px solid lavender;
+  border-radius: 5px;
+  margin: 1em 0;
+  padding: 1em;
+  width: 50%;
+}

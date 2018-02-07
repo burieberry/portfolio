@@ -1,0 +1,10 @@
+.project-title,
+.project-img,
+.project-desc,
+.project-buttons {
+  margin: 10px 0;
+}
+
+.project-img {
+  width: 500px;
+}
