@@ -4,7 +4,6 @@ import './projects.css';
 
 import Project from './Project';
 import allprojects from './allProjects';
-// import projectImg from './images/ratingfinder.png';
 
 const Projects = ({ title }) => {
   return (
@@ -14,7 +13,7 @@ const Projects = ({ title }) => {
         {
           allprojects.map(proj => {
             return (
-              <li className='project'>
+              <li className='project' key={ proj.id }>
                 <Project
                   projectTitle={ proj.projectTitle }
                   projectDesc={ proj.projectDesc }
