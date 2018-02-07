@@ -1,3 +1,12 @@
+Button {
+  margin: 5px;
+}
+
+.project-btn {
+  color: #fff;
+  font-weight: bold;
+}
+
 .project-title,
 .project-img,
 .project-desc,
@@ -5,6 +14,10 @@
   margin: 10px 0;
 }
 
+.project-title {
+  font-weight: 400;
+}
+
 .project-img {
-  width: 500px;
+  width: 520px;
 }
