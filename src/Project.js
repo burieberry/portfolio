@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from 'rmwc/Button';
 
 import '@material/button/dist/mdc.button.min.css';
 import './project.css';
 
 
-const Project = ({ projectTitle, projectDesc, projectImg }) => {
+const Project = ({ projectTitle, projectDesc, projectImg, demoLink, codeLink }) => {
   const backgroundColor = '#674497';
 
   return (
@@ -15,10 +16,10 @@ const Project = ({ projectTitle, projectDesc, projectImg }) => {
       <p className='project-desc'>{ projectDesc }</p>
       <div className='project-buttons'>
         <Button raised dense style={{ backgroundColor }}>
-          <span className="project-btn">Demo</span>
+          <Link to={ demoLink } target='_blank' className="project-btn">Demo</Link>
         </Button>
         <Button raised dense style={{ backgroundColor }}>
-          <span className="project-btn">Code</span>
+          <Link to={ codeLink } target='_blank' className="project-btn">Code</Link>
         </Button>
       </div>
     </div>

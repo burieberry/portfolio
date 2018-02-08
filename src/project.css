@@ -5,6 +5,7 @@ Button {
 .project-btn {
   color: #fff;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .project-desc {
@@ -13,7 +14,8 @@ Button {
 
 .project-img {
   margin: 10px;
-  width: 520px;
+  max-width: 520px;
+  height: 300px;
 }
 
 .project-title {

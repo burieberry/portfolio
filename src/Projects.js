@@ -17,7 +17,9 @@ const Projects = ({ title }) => {
                 <Project
                   projectTitle={ proj.projectTitle }
                   projectDesc={ proj.projectDesc }
-                  projectImg={ proj.projectImg } />
+                  projectImg={ proj.projectImg }
+                  demoLink={ proj.demoLink }
+                  codeLink={ proj.codeLink } />
               </li>
             );
           })
