@@ -1,14 +1,24 @@
 .navbar {
   background-color: #000;
   color: #e6e6f8;
-  height: 54px;
+  height: 56px;
   padding: 20px;
   text-align: right;
 }
 
 .nav-item {
+  color: #e6e6f8;
   font-family: 'Karla', sans-serif;
-  font-size: 17px;
-  margin-right: 3em;
+  font-size: 20px;
+  margin: 20px;
+  text-decoration: none;
   text-transform: uppercase;
+}
+
+.nav-item:hover {
+  color: #674497;
+}
+
+.selected {
+  color: #674497;
 }
