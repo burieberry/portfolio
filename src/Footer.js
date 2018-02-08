@@ -1,8 +1,7 @@
 import React from 'react';
-import { Icon } from 'rmwc/Icon';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter, faLinkedinIn, faMediumM, faStackOverflow } from '@fortawesome/fontawesome-free-brands';
-import { faCopyright, faEnvelope } from '@fortawesome/fontawesome-free-solid';
+import { faGithub, faTwitter, faLinkedinIn, faMediumM, faStackOverflow } from '@fortawesome/fontawesome-free-brands'
+import { faEnvelope } from '@fortawesome/fontawesome-free-solid';
 
 import '@material/button/dist/mdc.button.min.css';
 import './footer.css';
@@ -27,7 +26,7 @@ const Footer = ({ title }) => {
       </div>
       <div className='social-buttons'>
         {
-          icons.map(icon => <FontAwesomeIcon className='footer-icon' icon={ icon } />)
+          icons.map(icon => <FontAwesomeIcon key={ icon.iconName } className='footer-icon' icon={ icon } />)
         }
       </div>
     </div>
