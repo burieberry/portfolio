@@ -1,5 +1,5 @@
 .contact-box {
-  height: 80vh;
+  height: calc(100vh - 70px);
   min-height: 100%;
 }
 
@@ -20,5 +20,5 @@
 }
 
 .icon-text:hover {
-  color: #674497;
+  color: #ff4c6b;
 }
