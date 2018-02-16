@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
 
+.header {
+  color: #201037;
+  height: 50vh;
+  padding-top: 240px;
+}
+
 .headline {
   font-family: 'Over the Rainbow', cursive;
   font-size: 70px;
-  margin: 20px 0 0;
+  margin: 0 auto;
 }
-
-/*.headshot {
-  border-radius: 100%;
-  width: 80px;
-}*/
-
 
 /*
 typewriter effect
