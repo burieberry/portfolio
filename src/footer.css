@@ -15,7 +15,7 @@
 
 .copyright {
   color: #e6e6f8;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 30px;
   margin: 10px 0;
   padding-left: 50px;
@@ -30,5 +30,10 @@
 }
 
 .footer-icon {
+  color: #e6e6f8;
   margin: 10px;
+}
+
+.footer-icon:hover {
+  color: #674497;
 }
