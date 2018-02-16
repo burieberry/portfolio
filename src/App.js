@@ -4,6 +4,7 @@ import { Route } from 'react-router-dom';
 import Nav from './Nav';
 import Projects from './Projects';
 import Grid from './Grid';
+import Contact from './Contact';
 import Footer from './Footer';
 
 import './app.css';
@@ -15,6 +16,7 @@ class App extends Component {
         <Route component={ Nav } />
         <Route path='/' exact component={ Grid } />
         <Route path='/projects' component={ Projects } />
+        <Route path='/contact' component={ Contact } />
         <Route component={ Footer } />
       </div>
     );
