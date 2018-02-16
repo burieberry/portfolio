@@ -4,7 +4,6 @@ import { Route } from 'react-router-dom';
 import Nav from './Nav';
 import Projects from './Projects';
 import Grid from './Grid';
-import Header from './Header';
 import Contact from './Contact';
 import Footer from './Footer';
 
