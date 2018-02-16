@@ -13,6 +13,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .subhead {
   font-family: 'Karla', sans-serif;
   font-size: 24px;
