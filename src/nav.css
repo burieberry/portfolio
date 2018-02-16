@@ -21,5 +21,5 @@
 }
 
 .selected {
-  color: #ff4c6b;
+  border-bottom: 1px solid #ff4c6b;
 }
