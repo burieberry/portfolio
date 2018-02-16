@@ -7,7 +7,7 @@ import './project.css';
 
 
 const Project = ({ projectTitle, projectDesc, projectImg, demoLink, codeLink }) => {
-  const backgroundColor = '#674497';
+  const backgroundColor = '#ff4c6b';
 
   return (
     <div className='project-box'>
