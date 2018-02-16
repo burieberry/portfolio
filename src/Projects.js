@@ -8,7 +8,7 @@ import allprojects from './allProjects';
 const Projects = ({ title }) => {
   return (
     <div>
-      <h2 className='subhead'>{ title }</h2>
+      <h2 className='subhead'>{ title || 'Projects' }</h2>
       <ul className='project_container'>
         {
           allprojects.map(proj => {
