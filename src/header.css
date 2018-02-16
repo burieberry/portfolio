@@ -1,16 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
 
-.header {
+.hedBox {
   color: #201037;
   height: 50vh;
-  padding-top: 240px;
 }
 
 .headline {
   font-family: 'Over the Rainbow', cursive;
   font-size: 70px;
   margin: 0 auto;
+  padding-top: 30vh;
 }
+
+.blurbBox {
+  color: #333;
+  font-size: 17px;
+  height: 50vh;
+  line-height: 29px;
+}
+
+.blurbText {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+
+
 
 /*
 typewriter effect
