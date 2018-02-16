@@ -1,13 +1,14 @@
 .navbar {
-  background-color: #000;
-  color: #e6e6f8;
+  position: absolute;
+  background-color: rgba(250,250,250,.5);
   height: 56px;
   padding: 20px;
   text-align: right;
+  width: 100%;
 }
 
 .nav-item {
-  color: #e6e6f8;
+  color: #5a1dad;
   font-family: 'Karla', sans-serif;
   font-size: 18px;
   margin: 20px;
@@ -16,9 +17,9 @@
 }
 
 .nav-item:hover {
-  color: #674497;
+  color: #ff4c6b;
 }
 
 .selected {
-  color: #674497;
+  color: #ff4c6b;
 }
