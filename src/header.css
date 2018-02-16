@@ -3,10 +3,40 @@
 .headline {
   font-family: 'Over the Rainbow', cursive;
   font-size: 70px;
-  margin: 40px 0 0;
+  margin: 20px 0 0;
 }
 
 /*.headshot {
   border-radius: 100%;
   width: 80px;
 }*/
+
+
+/*
+typewriter effect
+
+// animate typing
+.typewriter {
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .10em solid #000;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .10em;
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite
+}
+
+// The typing effect
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+// The typewriter cursor effect
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: purple }
+}
+*/

@@ -1,8 +1,17 @@
 .description {
-  font-size: 17px;
-  line-height: 29px;
+
 }
 
 .introduction {
-  margin: 30px 10px;
+  font-size: 17px;
+  line-height: 29px;
+  margin: 35px 10px;
+}
+
+.skills-hed {
+  margin: 35px 0;
+}
+
+.skills {
+  text-align: left;
 }
