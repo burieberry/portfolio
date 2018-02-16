@@ -7,7 +7,7 @@ import allprojects from './allProjects';
 
 const Projects = ({ title }) => {
   return (
-    <div>
+    <div className='projects'>
       <h2 className='subhead'>{ title || 'Projects' }</h2>
       <ul className='project_container'>
         {
