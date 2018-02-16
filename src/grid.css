@@ -1,10 +1,9 @@
 .container {
-  max-width: 1440px;
-  margin: 0 auto 4em;
+  max-width: 1880px;
+  margin: 0 auto;
 }
 .container > div {
-  /*border: 2px solid lavender;*/
-  padding: 1em;
+  /*border: 2px solid red;*/
 }
 .container {
   display: grid;
@@ -12,18 +11,12 @@
   grid-auto-rows: minmax(100px, auto);
 }
 .intro {
-  grid-column: 5 / 9;
+  grid-column: 1 / 13;
+  background: url('./images/pexels-584305.jpeg') no-repeat 50% 10%;
+  background-size: cover;
   grid-row: 1;
 }
-.blurb {
-  grid-column: 3 / 11;
-  grid-row: 2;
-}
 .projects {
-  grid-column: 2 / 12;
-  grid-row: 3;
-}
-.production {
-  grid-column: 7 / 11;
+  grid-column: 1 / 13;
   grid-row: 3;
 }
