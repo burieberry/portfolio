@@ -20,8 +20,8 @@ const Footer = ({ title }) => {
         {
           ContactLinks.map(btn => {
             return (
-              <Link to={ btn.link } target='_blank'>
-                <FontAwesomeIcon key={ btn.iconName } className='footer-icon' icon={ btn.icon } />
+              <Link to={ btn.link } target='_blank' key={ btn.icon.iconName }>
+                <FontAwesomeIcon className='footer-icon' icon={ btn.icon } />
               </Link>
             );
           })
