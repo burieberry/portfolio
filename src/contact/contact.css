@@ -22,3 +22,9 @@
 .icon-text:hover {
   color: #ff4c6b;
 }
+
+@media screen and (max-width: 414px) {
+  .contact-box {
+    height: calc(100vh - 120px);
+  }
+}
