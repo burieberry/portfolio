@@ -59,28 +59,19 @@
 
   .headline {
     font-size: 50px;
-    margin-top: 30px;
   }
 
   .blurb-container {
-    margin: 40px 0;
+    margin: 40px 0 0;
     padding: 0 15px;
   }
 
   .blurb-text {
     background-color: rgba(255,255,255,.6);
-    padding: 30px 12px;
+    padding: 20px 12px;
 
   }
 }
-
-@media screen and (max-width: 360px) {
-  .headline {
-    font-size: 50px;
-    margin-top: 50px;
-  }
-}
-
 
 /*.contact-group {
   position: relative;
