@@ -53,6 +53,26 @@
   padding: 20px 10px;
 }
 
+/* responsive styles */
+
+@media screen and (max-width: 414px) {
+  .headline {
+    font-size: 50px;
+    padding-top: 20vh;
+  }
+
+  .blurb-container {
+    padding: 0 15px;
+  }
+
+  .blurb-text {
+    background-color: rgba(255,255,255,.4);
+    padding: 30px 12px;
+  }
+
+}
+
+
 /*.contact-group {
   position: relative;
   font-size: 20px;

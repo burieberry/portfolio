@@ -37,3 +37,31 @@
 .footer-icon:hover {
   color: #674497;
 }
+
+@media screen and (max-width: 414px) {
+  .footer {
+    bottom: 0;
+    display: block;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+  }
+
+  .footer div {
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .social-buttons {
+    font-size: 24px;
+    text-align: center;
+  }
+}
