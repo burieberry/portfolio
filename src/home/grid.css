@@ -7,10 +7,12 @@
 }
 .container {
   display: grid;
+  min-height: 100vh;
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: minmax(100px, auto);
 }
 .intro {
+  border: 2px solid red;
   grid-column: 1 / 13;
   background: url('../common/images/pexels-584305.jpeg') no-repeat 50% 10%;
   background-size: cover;

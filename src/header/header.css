@@ -2,14 +2,12 @@
 
 .header-container {
   height: calc(100vh - 70px);
-  min-height: 100%;
 }
 
 /* Headline Styles */
 
 .headline-container {
   color: #201037;
-  height: 50vh;
 }
 
 .headline {
@@ -24,7 +22,6 @@
 .blurb-container {
   color: #333;
   font-size: 17px;
-  height: 50vh;
   line-height: 29px;
 }
 
@@ -56,20 +53,32 @@
 /* responsive styles */
 
 @media screen and (max-width: 414px) {
+  .header-container {
+    height: 100%;
+  }
+
   .headline {
     font-size: 50px;
-    padding-top: 20vh;
+    margin-top: 30px;
   }
 
   .blurb-container {
+    margin: 40px 0;
     padding: 0 15px;
   }
 
   .blurb-text {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.6);
     padding: 30px 12px;
-  }
 
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .headline {
+    font-size: 50px;
+    margin-top: 50px;
+  }
 }
 
 
