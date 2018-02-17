@@ -11,3 +11,15 @@
   padding: 1em;
   width: 47%;
 }
+
+@media screen and (max-width: 414px) {
+  .project_container {
+    padding-bottom: 35px;
+  }
+
+  .project {
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 10px;
+  }
+}

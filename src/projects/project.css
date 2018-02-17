@@ -25,3 +25,11 @@
   font-weight: 700;
   padding: 20px 0 0;
 }
+
+@media screen and (max-width: 414px) {
+  .project-img {
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+  }
+}
