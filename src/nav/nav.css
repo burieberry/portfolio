@@ -1,6 +1,6 @@
 .navbar {
   position: absolute;
-  background-color: rgba(250,250,250,.5);
+  background-color: rgba(255,255,255,.5);
   height: 56px;
   padding: 20px;
   text-align: right;
@@ -8,7 +8,7 @@
 }
 
 .nav-item {
-  color: #5a1dad;
+  color: #201037;
   font-family: 'Karla', sans-serif;
   font-size: 18px;
   margin: 20px;
@@ -22,4 +22,14 @@
 
 .selected {
   border-bottom: 1px solid #ff4c6b;
+}
+
+@media screen and (max-width: 414px) {
+  .navbar {
+    background-color: rgba(250,250,250,.8);
+  }
+  .selected {
+    color: #ff4c6b;
+    border: none;
+  }
 }
