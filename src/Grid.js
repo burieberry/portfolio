@@ -12,9 +12,9 @@ const Grid = () => {
       <div className="intro">
         <Header title={ 'Burcu Noyan' } />
       </div>
-      <div className="projects">
+     {/* <div className="projects">
         <Projects title={ 'Projects' } />
-      </div>
+      </div>*/}
       {/*<div className="production">
         <Projects title={ 'Production' } />
       </div>*/}

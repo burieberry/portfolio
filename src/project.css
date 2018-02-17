@@ -1,4 +1,6 @@
-Button {
+#demo-button,
+#code-button {
+  background-color: #ff4c6b;
   margin: 5px;
 }
 

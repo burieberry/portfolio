@@ -7,18 +7,16 @@ import './project.css';
 
 
 const Project = ({ projectTitle, projectDesc, projectImg, demoLink, codeLink }) => {
-  const backgroundColor = '#ff4c6b';
-
   return (
     <div className='project-box'>
       <img className='project-img' src={ projectImg } alt='' />
       <h3 className='subhead project-title'>{ projectTitle }</h3>
       <p className='project-desc'>{ projectDesc }</p>
       <div className='project-buttons'>
-        <Button raised dense style={{ backgroundColor }}>
+        <Button raised dense id='demo-button'>
           <Link to={ demoLink } target='_blank' className="project-btn">Demo</Link>
         </Button>
-        <Button raised dense style={{ backgroundColor }}>
+        <Button raised dense id='code-button'>
           <Link to={ codeLink } target='_blank' className="project-btn">Code</Link>
         </Button>
       </div>
