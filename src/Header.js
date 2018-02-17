@@ -2,9 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'rmwc/Button';
 
-import Portfolio from './Projects';
-import Contact from './Contact';
-
 import '@material/button/dist/mdc.button.min.css';
 import './header.css';
 

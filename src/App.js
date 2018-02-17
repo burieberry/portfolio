@@ -7,12 +7,10 @@ import Grid from './Grid';
 import Contact from './Contact';
 import Footer from './Footer';
 
-import './app.css';
-
 class App extends Component {
   render() {
     return (
-      <div className='app'>
+      <div>
         <Route component={ Nav } />
         <Route path='/' exact component={ Grid } />
         <Route path='/projects' component={ Projects } />
