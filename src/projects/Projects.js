@@ -3,7 +3,7 @@ import React from 'react';
 import './projects.css';
 
 import Project from './Project';
-import allprojects from './common/allProjects';
+import allprojects from '../common/allProjects';
 
 const Projects = ({ title }) => {
   return (

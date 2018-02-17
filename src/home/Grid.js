@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from './Header';
-// import Projects from './Projects';
+import Header from '../header/Header';
+// import Projects from '../projects/Projects';
 
 import './grid.css';
 

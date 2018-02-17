@@ -12,7 +12,7 @@
 }
 .intro {
   grid-column: 1 / 13;
-  background: url('./images/pexels-584305.jpeg') no-repeat 50% 10%;
+  background: url('../common/images/pexels-584305.jpeg') no-repeat 50% 10%;
   background-size: cover;
   grid-row: 1;
 }

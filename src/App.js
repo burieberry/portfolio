@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 
-import Nav from './Nav';
-import Projects from './Projects';
-import Grid from './Grid';
-import Contact from './Contact';
-import Footer from './Footer';
+import Nav from './nav/Nav';
+import Projects from './projects/Projects';
+import Grid from './home/Grid';
+import Contact from './contact/Contact';
+import Footer from './footer/Footer';
 
 class App extends Component {
   render() {

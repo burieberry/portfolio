@@ -2,7 +2,7 @@ import React from 'react';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
-import { ContactLinks } from './common/socialLinks';
+import { ContactLinks } from '../common/socialLinks';
 
 import '@material/button/dist/mdc.button.min.css';
 import './footer.css';
