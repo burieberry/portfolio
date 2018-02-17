@@ -12,7 +12,6 @@ const Footer = ({ title }) => {
 
   return (
     <div className='footer'>
-      {/*<h2 className='subhead'>{ title }</h2>*/}
       <div className='copyright'>
         <p><small>©</small> { copyrightTxt }</p>
       </div>
