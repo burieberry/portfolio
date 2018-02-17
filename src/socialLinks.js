@@ -16,6 +16,11 @@ const Twitter = {
   link: 'https://twitter.com/burieberry'
 };
 
+const Medium = {
+  icon: faMediumM,
+  link: 'https://medium.com/@Burieberry'
+};
+
 const StackOverflow = {
   icon: faStackOverflow,
   link: 'https://stackoverflow.com/users/8845312/burieberry'
@@ -30,6 +35,7 @@ const ContactLinks = [
   LinkedIn,
   Github,
   Twitter,
+  Medium,
   StackOverflow,
   Email
 ];
@@ -39,6 +45,7 @@ export {
   LinkedIn,
   Github,
   Twitter,
+  Medium,
   StackOverflow,
   Email
 };
