@@ -13,12 +13,16 @@ const Project = ({ projectTitle, projectDesc, projectImg, demoLink, codeLink }) 
       <h3 className='subhead project-title'>{ projectTitle }</h3>
       <p className='project-desc'>{ projectDesc }</p>
       <div className='project-buttons'>
-        <Button raised dense id='demo-button'>
-          <Link to={ demoLink } target='_blank' className="project-btn">Demo</Link>
-        </Button>
-        <Button raised dense id='code-button'>
-          <Link to={ codeLink } target='_blank' className="project-btn">Code</Link>
-        </Button>
+        <Link to={ demoLink } target='_blank' className="project-btn">
+          <Button raised dense id='demo-button'>
+            Demo
+          </Button>
+        </Link>
+        <Link to={ codeLink } target='_blank' className="project-btn">
+          <Button raised dense id='code-button'>
+            Code
+          </Button>
+        </Link>
       </div>
     </div>
   );
