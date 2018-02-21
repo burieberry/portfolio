@@ -8,12 +8,16 @@ import './header.css';
 const Menu = () => {
   return (
     <div className='menu'>
-      <Button raised id="portfolio-button">
-        <Link to='/projects' className='menu-btn'>Portfolio</Link>
-      </Button>
-      <Button raised id="contact-button">
-        <Link to='/contact' className='menu-btn'>Contact</Link>
-      </Button>
+      <Link to='/projects' className='menu-btn'>
+        <Button raised id="portfolio-button">
+          Portfolio
+        </Button>
+      </Link>
+      <Link to='/contact' className='menu-btn'>
+        <Button raised id="contact-button">
+          Contact
+        </Button>
+      </Link>
     </div>
   );
 }
